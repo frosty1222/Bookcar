@@ -1,0 +1,135 @@
+.header .menu ul li .product-list{
+       display:none;
+       width:1200px;
+       height:400px;
+       background:pink;
+       position:absolute;
+       z-index:1;
+       margin-top:0px;
+}
+.header .menu ul li .product-list .double-split{
+      width:300px;
+      display: flex;
+}
+.header .menu ul li .product-list .double-split .truck-product{
+      width:150px;
+      height:45px;
+      text-align:center;
+      color:black;
+      font-size:17px;
+      font-weight:600;
+      font-family:sans-serif;
+      margin:10px;
+      border:1px solid #333;
+      cursor: pointer;
+}
+.header .menu ul li .product-list .product-classified .truck{
+      display:none;
+}
+.header .menu ul li .product-list .product-classified .bus{
+      display:none;
+}
+.header .menu ul li .product-list .double-split .bus-product{
+      width:150px;
+      height:45px;
+      text-align:center;
+      color:black;
+      font-size:17px;
+      font-weight:600;
+      font-family:sans-serif;
+      border:1px solid #333;
+      margin:10px;
+      cursor:pointer;
+}
+.header .menu ul li .product-list li{
+     background: transparent;
+    /* border: 1px solid aqua; */
+    height:81px;
+    width:90px;
+    overflow:hidden;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    text-transform:capitalize;
+    padding:10px;
+    margin:10px;
+}
+.header .menu ul li .product-list li a img{
+      position: relative;
+      width:100px;
+      height:100px;
+}
+.header .menu ul li .product-list li a span{
+       font-size: 13px;
+       text-align: center;
+       text-transform: capitalize;
+       position:absolute;
+       margin-top:100px;
+       width: 150px;
+       margin-left:-120px;
+}
+.header .menu ul #product:hover .product-list{
+      display:block;
+      z-index:1;
+      position:absolute;
+      opacity:1;
+      color:green;
+      background:pink;
+}
+.header .menu ul #services:hover .services{
+      display:flex;
+      z-index:1;
+      position:absolute;
+      opacity:1;
+      color:green;
+      background:pink;
+}
+.header .menu ul li .services{
+      display:none;
+       width:auto;
+       height:auto;
+       background:pink;
+       position:absolute;
+       z-index:1;
+       margin-top: 0px;
+}
+.header .menu ul li .services li{
+      height:150px;
+      width:100px;
+}
+.header .menu ul #discount:hover .discount{
+      display:flex;
+      color:green;
+      background:pink;
+}
+.header .menu ul li .discount li {
+    background: transparent;
+    /* border: 1px solid aqua; */
+    height:auto;
+    width:140px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.header .menu ul li .discount li a img{
+      width: 100px;
+      height:100px;
+      position:relative;
+      text-align: center;
+}
+.header .menu ul li .discount li a{
+      text-align: center;
+      width:100%;
+}
+.header .menu ul li .discount {
+    display: none;
+    width: auto;
+    height: auto;
+    background: pink;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    cursor: pointer;
+}

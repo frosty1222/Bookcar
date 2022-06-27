@@ -1,0 +1,274 @@
+.main-container .main-body{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;   
+    background-color: #fff;
+}
+.clear{
+    clear: both;
+}
+.main-container .main-body .product {
+    width: 1340px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+}
+.main-container .main-body .product .item{
+    width:1340px;
+}
+.main-container .main-body .product p{
+    margin-left:600px;
+    width: 100px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.main-container .main-body .product ul li {
+    display: inline;
+    overflow: visible;
+    padding: 20px;
+    height: auto;
+    float: right;
+}
+.main-container .main-body .product ul{
+    width:100%;
+    display:flex;
+}
+.main-container .main-body .product ul li .more-infor {
+    position: absolute;
+    margin-left: -300px;
+    padding-top: 100px;
+    color: orange;
+    visibility: hidden;
+}
+.main-container .main-body .product ul li:hover .more-infor{
+    visibility: visible;
+    opacity:1;
+    cursor: pointer;
+    position: absolute;
+}
+.main-container .main-body .product ul li a img {
+    border-bottom: 1px solid black;
+}
+.product .item ul li h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+.product .item ul li h5{
+    width: 150px;
+}
+.product .item ul li h5 .price{
+    font-weight: 600;
+    font-size: 15px;
+}
+.slide-container {
+    width:100%;
+    justify-content: center;
+    margin: 0px;
+}
+.slide-container .image-slide span img {
+    width: 370px;
+    height: 200px;
+    padding: 3px;
+    margin-left: 17px;
+}
+.slide-container .image-slide {
+    position: relative;
+    width: 1340px;
+    padding: 0px;
+    margin: 0px;
+}
+.slide-container .image-slide img{
+    width:100%;
+}
+.slide-container .image-slide .icon {
+    display: flex;
+    width: 100%;
+    margin-top: -340px;
+    margin-left: -10px;
+}
+.image-slide .icon #icon1 .icon2 img {
+    border-bottom: none;
+    width: 300px;
+    height: 150px;
+}
+.image-slide .icon #icon1 .icon2 {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-family: system-ui;
+    list-style: none;
+    font-size: 13px;
+    border: 2px dashed;
+    border-width: 2.5px;
+}
+.image-slide .icon #icon1 {
+    width: 420px;
+    padding-left: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.image-slide .icon #pre{
+    position: absolute;
+    color: #fff;
+}
+.slide-container .image-slide .icon_pre .tep {
+    position: relative;
+    top: -150px;
+    color: silver;
+    left: 20px;
+    cursor: pointer;
+}
+.slide-container .image-slide .icon_pre .tiep {
+    position: relative;
+    float: right;
+    right: 10px;
+    margin-top: -150px;
+    color: silver;
+    cursor: pointer;
+}
+.News{
+    width:1340px;
+    margin-top: 130px;
+}
+.News .child-new{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 610px;
+}
+.News ul li .calender{
+    opacity:0.5;
+}
+.News ul li .long-text {
+    opacity: 1;
+    font-size: 15px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: 10px;
+    position: absolute;
+    width: 350px;
+}
+.News ul li .image-tag {
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 400px;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+}
+.News ul li .long-text::before {
+    content: "|";
+    position: absolute;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: -10px;
+    color: aqua;
+    top: -5px;
+}
+.News ul li .text-long {
+    position: absolute;
+    margin-top: 70px;
+    width: 400px;
+    opacity: 1;
+   
+}
+.News ul li .text-long a {
+    margin-top: 50px;
+    position: absolute;
+    left: 0px;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 2;
+    width: 150px;
+    padding-left: 10px;
+    border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    text-decoration-line: none;
+    font-family: system-ui;
+    font-weight: 800;
+    color:#555756;
+    font-style: normal;
+}
+.News ul li .text-long a .fa-angle-right {
+    margin-left:5px;
+    background: #555756;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    line-height: 2;
+    margin-top: 1px;
+    text-align: center;
+    color: black;
+}
+.News ul li .text-long a .fa-angle-right:hover{
+    background-color:aqua;
+}
+.News .email-bottom .image-bottom{
+    width:1340px;
+    position: relative;
+    overflow: hidden;
+}
+.News .email-bottom .image-bottom img{
+    width: 100%;
+}
+.News .email-bottom .quotes {
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 630px;
+}
+.News .email-bottom {
+    width: 100%;
+    margin-top: 200px;
+}
+.News .email-bottom .form-email {
+    width: 1340px;
+    margin-top: -185px;
+    z-index: 1;
+    position: absolute;
+}
+.News .email-bottom .form-email form{
+    margin-left:100px;
+    margin-right:auto; 
+}
+.News .email-bottom .form-email form input{
+    width: 27%;
+    height: 40px;
+    border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border: 0px solid #EBEBEB;
+    outline: none;
+    padding-left: 10px;
+}
+.News .email-bottom .form-email form button{
+    width: 150px;
+    height: 40px;
+    line-height: 2;
+    text-align: center;
+     border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    background-color: red;
+    border: #EBEBEB;
+    color: #fff;
+}
+.News .email-bottom .form-email form button:hover{
+    background:aqua;
+}
+.News .email-bottom span {
+    position: absolute;
+    margin-top: 100px;
+    z-index: 1;
+    color: #fff;
+    left: 520px;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: system-ui;
+}

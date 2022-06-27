@@ -1,0 +1,530 @@
+.service-container{
+    width: 100%;
+    height: auto;
+    background-color:#ddd;
+    margin:0px;
+    padding:0px;
+}
+.service-container .service-breadcrumb ul li{
+    display: inline;
+}
+.service-container .service-breadcrumb ul {
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.service-container .service {
+    background-color: #fff;
+    width: 1200px;
+    margin-left: 70px;
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.service-container .service .service-left{
+    width:300px;
+    height:auto;
+    background-color:#ddd;
+}
+.service .service-left span {
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.service .service-left ul li .fa-angle-right {
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+.service .service-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.service .service-left ul li{
+    margin:10px;
+}
+.service-container .service .service-right{
+    width:900px;
+    height:auto;
+}
+.service .service-left ul li .fa-angle-right:hover{
+    background:silver;
+    color:#fff;
+}
+.service .service-left ul li a:hover{
+    color:orange;
+}
+.service .service-right ul {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.service-right .service-heading .media {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    text-align: right;
+    position: relative;
+}
+.service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+.service-right .service-heading .media .like {
+    margin-right: 20px;
+    float: left;
+    margin-left: 100px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.service-right .service-heading .media .like a{
+    text-decoration: none;
+    font-size:17px;
+    color:#fff;
+    background-color:rgb(0, 119, 255);
+    padding:5px 10px;
+}
+.service-right .service-heading .media .like a:hover{
+    color:yellow;
+}
+.service-right .service-heading .media .share {
+    margin-top: 5px;
+    float: right;
+    margin-right: 30px;
+}
+.service-right .service-heading .media .share span {
+    font-weight: normal;
+    font-size: 17px;
+    color: #fff;
+    background-color: rgb(0, 119, 255);
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 80px;
+    margin-left: -70px;
+    margin-top: -5px;
+}
+.media .share #share2 {
+    box-shadow: 0.1px 0.1px 1px 0.1px #333;
+    position: absolute;
+    width: 110px;
+    height: auto;
+    text-align: left;
+    margin-top: 40px;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+    overflow: auto;
+    background-color: whitesmoke;
+    margin-left: 0px;
+}
+.media .share #share2 li:hover{
+    background-color:darkgray;
+}
+.media .share #share3 {
+    box-shadow: 0.1px 0.1px 1px 0.1px #333;
+    position: absolute;
+    width: 110px;
+    height: auto;
+    text-align: left;
+    margin-top: 20px;
+    z-index: 1;
+    visibility: hidden;
+    cursor: pointer;
+    overflow: auto;
+    background-color: whitesmoke;
+    margin-left: -70px;
+}
+.media .share #share3 li:hover{
+    background-color:darkgray;
+}
+.service-right .service-heading .media .share ul li{
+    list-style:block;
+    z-index:1;
+    margin-bottom:5px;
+    color:black;
+}
+.service-right .service-heading .media .share ul li .fab{
+    padding:5px 10px;
+    background-color:rgb(0, 89, 255);
+    color:#fff;
+    font-size:10px;
+    opacity:0.7;
+}
+.service-right .service-heading .media .share ul li a{
+    text-decoration:none;
+    z-index:1;
+    color:#333;
+}
+.media .share:hover #share2{
+    visibility:visible;
+    opacity:1;
+    z-index:1;
+}
+.media .share:hover #share3{
+    visibility:visible;
+    opacity:1;
+    z-index:1;
+}
+.service-right .service-heading .media .share ul li{
+    display: block;
+}
+/* reponsive view page */
+@media screen and (max-width:600px){
+    .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+   }
+  .service-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-top:0px;
+   }
+  .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+    margin-bottom: -200px;
+    overflow: hidden;
+   }
+   .sub-header .logo-header .logo-right .right-list-icon {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 15px;
+    display: none !important;
+   }
+   .service-container .service .service-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .service-container .service .service-right {
+    width: 100%;
+    height: auto;
+ }
+   .service .service-right ul {
+    width: 100%;
+    }
+    .service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: -40px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+   }
+   .img-service{
+       width:100%;
+       margin:0px;
+   }
+   .img-service img{
+       width:100%;
+       margin-left:-10px;
+   }
+   .main-container .footer {
+    width: 100%;
+    margin-top: -516px;
+    background: #282828;
+    height: auto;
+   }
+}  
+@media screen and (min-width: 600px) and (max-width:775px){
+    .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+   }
+    .service-container {
+        width: 100%;
+        height: auto;
+        background-color: #ddd;
+        padding: 0px;
+        margin-top: 0px !important;
+    } 
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+    margin-bottom:-200px;
+   }
+   .trial-content .trial-left .trial-form {
+    margin: 30px;
+   }
+   .service-container .service .service-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .service-container .service .service-right {
+    width: 100%;
+    height: auto;
+    }
+   .service .service-right .service-heading{
+       width: 100%;
+       margin-top:30px;
+   }
+   .service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    }
+   .service .service-right ul {
+    width: 96%;
+    margin: 10px;
+    }
+   .img-service{
+       width:100%;
+       margin:0px;
+   }
+   .img-service img {
+    width: 100%;
+    margin-left: 0px;
+    }
+   .main-container .footer {
+    width: 100%;
+    margin-top: -516px;
+    background: #282828;
+    height: auto;
+   }
+   .new-paginate {
+    float: right;
+    margin-right: 0px;
+   }
+   .new-paginate ul li {
+    margin-right: 5px;
+    display: inline;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+    .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+   }
+  .service-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-top: 100px;
+  }  
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+    margin-bottom:-200px;
+   }
+   .service-container .service .service-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .service-container .service .service-right {
+    width: 100%;
+    height: auto;
+    }
+   .service .service-right .service-heading{
+       width: 100%;
+       margin-top:30px;
+   }
+   .service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    }
+   .service .service-right ul {
+    width: 96%;
+    margin: 10px;
+    }
+   .img-service{
+       width:100%;
+       margin:0px;
+   }
+   .img-service img {
+    width: 100%;
+    margin-left: 0px;
+    }
+   .main-container .footer {
+    width: 100%;
+    margin-top: -516px;
+    background: #282828;
+    height: auto;
+   }
+   .new-paginate {
+    float: right;
+    margin-right: 0px;
+   }
+   .new-paginate ul li {
+    margin-right: 5px;
+    display: inline;
+   }
+}
+@media screen and (max-width:700px) and (orientation:landscape){
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+   }
+  .service-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-top: 100px;
+  }  
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+    margin-bottom:-200px;
+   }
+   .service-container .service .service-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .service-container .service .service-right {
+    width: 100%;
+    height: auto;
+    }
+   .service .service-right .service-heading{
+       width: 100%;
+       margin-top:30px;
+   }
+   .service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    }
+   .service .service-right ul {
+    width: 96%;
+    margin: 10px;
+    }
+   .img-service{
+       width:100%;
+       margin:0px;
+   }
+   .img-service img {
+    width: 100%;
+    margin-left: 0px;
+    }
+   .main-container .footer {
+    width: 100%;
+    margin-top: -516px;
+    background: #282828;
+    height: auto;
+   }
+   .new-paginate {
+    float: right;
+    margin-right: 0px;
+   }
+   .new-paginate ul li {
+    margin-right: 5px;
+    display: inline;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+   }
+  .service-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-top: 100px;
+  }  
+   .service-container .service {
+    background-color: #fff;
+    width: 100%;
+    margin-left: 0px;
+    display: block;
+    margin-bottom:-200px;
+   }
+   .service-container .service .service-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .service-container .service .service-right {
+    width: 100%;
+    height: auto;
+    }
+   .service .service-right .service-heading{
+       width: 100%;
+       margin-top:30px;
+   }
+   .service-right .service-heading span {
+    font-family: sans-serif;
+    margin-top: -20px;
+    margin-left: 10px;
+    width: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    }
+   .service .service-right ul {
+    width: 96%;
+    margin: 10px;
+    }
+   .img-service{
+       width:100%;
+       margin:0px;
+   }
+   .img-service img {
+    width: 100%;
+    margin-left: 0px;
+    }
+   .main-container .footer {
+    width: 100%;
+    margin-top: -516px;
+    background: #282828;
+    height: auto;
+   }
+   .new-paginate {
+    float: right;
+    margin-right: 0px;
+   }
+   .new-paginate ul li {
+    margin-right: 5px;
+    display: inline;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+   
+}

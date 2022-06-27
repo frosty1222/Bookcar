@@ -1,0 +1,471 @@
+.new-container{
+    width:100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+}
+.new-container .new-line .new-breadcrumb ul li{
+    display: inline;
+}
+.new-container .new-line .new-breadcrumb{
+    margin-left:70px;
+    padding-top:10px;
+}
+.new-container .new-newfeed{
+    width:1200px;
+    background-color:#fff;
+    height:auto;
+    display: flex;
+    margin-left: 70px;
+    margin-top:30px;
+}
+.new-newfeed .new-left{
+    width:300px;
+    height: auto;
+    background-color:#ddd;
+}
+.new-left ul li span{
+    font-size:20px;
+    font-weight:700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.new-left ul li .fa-angle-right{
+    border:1px solid #333;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    padding: 5px 10px;
+    margin-right:5px;
+}
+.new-left ul li .fa-angle-right:hover{
+    cursor: pointer;
+    background:#333;
+    color:#fff;
+}
+.new-left ul li{
+    padding-bottom:10px;
+}
+.new-left ul li a{
+    text-decoration:none;
+    color:#333;
+    font-family: 'Courier New', Courier;
+    font-size:15px;
+
+}
+.new-left ul li a:hover{
+    color:green;
+}
+.new-newfeed .new-right{
+    width:900px;
+    height: auto;
+}
+.new-newfeed .new-right .newfeed{
+    margin-bottom: 30px;
+}
+.new-newfeed .new-right .new-heading{
+    width:100%;
+}
+.new-newfeed .new-right .new-heading span {
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+}
+.new-newfeed .new-right .new-heading .media {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    text-align: right;
+    position: relative;
+}
+.new-newfeed .new-right .new-heading .media .like {
+    margin-right: 20px;
+    float: left;
+    margin-left: 100px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.new-newfeed .new-right .new-heading .media .like a{
+    text-decoration: none;
+    font-size:17px;
+    color:#fff;
+    background-color:rgb(0, 119, 255);
+    padding:5px 10px;
+}
+.new-newfeed .new-right .new-heading .media .share {
+    margin-top: 10px;
+    float: right;
+    margin-right: 100px;
+}
+.new-container .new-line .new-breadcrumb {
+    margin-left: 270px;
+    padding-top: 10px;
+}
+.new-newfeed .new-right .new-heading .media .share #share {
+    font-weight: normal;
+    font-size:17px;
+    color:#fff;
+    background-color:rgb(0, 119, 255);
+    padding:5px 10px;
+    cursor: pointer;
+}
+.media .share #share2{
+    box-shadow:0.1px 0.1px 1px 0.1px #333;
+    position:absolute;
+    width:110px;
+    height:auto;
+    text-align:left;
+    margin-top:42px;
+    z-index: 1;
+    visibility:hidden;
+    cursor: pointer;
+    overflow:auto;
+    background-color:whitesmoke;
+}
+.new-newfeed .new-right .new-heading .media .share ul li{
+    list-style:block;
+    z-index:1;
+    margin-bottom:5px;
+    color:black;
+}
+.new-newfeed .new-right .new-heading .media .share ul li .fab{
+    padding:5px 10px;
+    background-color:rgb(0, 89, 255);
+    color:#fff;
+    font-size:10px;
+    opacity:0.7;
+}
+.new-newfeed .new-right .new-heading .media .share ul li a{
+    text-decoration:none;
+    z-index:1;
+    color:#333;
+}
+.media .share:hover #share2{
+    visibility:visible;
+    opacity:1;
+    z-index:1;
+}
+.new-newfeed .new-right .new-heading .media .share ul li{
+    display: block;
+}
+.new-newfeed .new-right .newfeed{
+    margin-top:70px;
+}
+.new-newfeed .new-right .newfeed ul{
+    display:flex;
+}
+.new-newfeed .new-right .newfeed ul .img-new{
+   margin:20px;
+}
+.new-newfeed .new-right .newfeed ul .new-inside{
+    margin:20px;
+}
+.new-newfeed .new-right .newfeed ul .new-inside li h3 {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.new-newfeed .new-right .newfeed ul .new-inside #span{
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 460px;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+}
+.new-newfeed .new-right .newfeed ul .new-inside li span {
+    color: darkgray;
+    font-family: san-serif;
+    margin-bottom:20px;
+}
+.new-newfeed .new-right .newfeed ul .new-inside li {
+    margin-bottom: 20px;
+}
+.new-paginate{
+    float: right;
+    margin-right:-150px;
+}
+.new-paginate ul{
+    width:300px;
+}
+.new-paginate ul li a{
+    text-decoration:none;
+    background-color:#333;
+    padding:5px 10px;
+    color:#fff;
+}
+.new-paginate ul li{
+    margin-right:5px;
+}
+.new-paginate ul li a:hover{
+    color:orange;
+    background:aqua;
+}
+@media screen and (max-width:600px){
+    .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    }
+    .new-container .new-newfeed {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+   }
+   .new-newfeed .new-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .new-newfeed .new-right {
+    width: 100%;
+    height: auto;
+   }
+   .new-newfeed .new-right .newfeed ul {
+    display: block;
+   }
+   .new-newfeed .new-right .newfeed ul .new-inside #span {
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 90%;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new {
+    width: 100%;
+    margin-left: 3px;
+    overflow: hidden;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new img{
+       width:100%;
+   }
+   .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-bottom: -200px;
+   }
+}
+@media screen and (min-width: 600px) and (max-width:775px){
+    .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    }
+    .new-container .new-newfeed {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+   }
+   .new-newfeed .new-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .new-newfeed .new-right {
+    width: 100%;
+    height: auto;
+   }
+   .new-newfeed .new-right .newfeed ul {
+    display: flex !important;
+   }
+   .new-newfeed .new-right .newfeed ul .new-inside #span {
+    padding-bottom: 90px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 45%;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+   }
+   .new-newfeed .new-right .new-heading .media {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    margin-top: -60px;
+   }
+   .new-newfeed .new-right .new-heading span {
+    margin-top: -10px;
+    margin-left: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    width: auto;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new {
+    width: 100%;
+    margin-left: 3px;
+   }
+   .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-bottom: -200px;
+   }
+}
+@media screen and (min-width: 778px) and (max-width:1025px){
+    .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    }
+    .new-container .new-newfeed {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+   }
+   .new-newfeed .new-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .new-newfeed .new-right {
+    width: 100%;
+    height: auto;
+   }
+   .new-newfeed .new-right .newfeed ul {
+    display: block;
+   }
+   .new-newfeed .new-right .newfeed ul .new-inside #span {
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 90%;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new {
+    width: 100%;
+    margin-left: 3px;
+   }
+   .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-bottom: -200px;
+   }
+}
+@media screen and (max-width:700px) and (orientation:landscape){
+    .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    }
+    .new-container .new-newfeed {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+   }
+   .new-newfeed .new-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .new-newfeed .new-right {
+    width: 100%;
+    height: auto;
+   }
+   .new-newfeed .new-right .newfeed ul {
+    display: block;
+   }
+   .new-newfeed .new-right .newfeed ul .new-inside #span {
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 90%;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new {
+    width: 100%;
+    margin-left: 3px;
+   }
+   .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-bottom: -200px;
+   }
+}
+@media screen and (min-width:800px) and (max-width:850px){
+    .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    }
+    .new-container .new-newfeed {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    margin-top: 30px;
+   }
+   .new-newfeed .new-left {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+   }
+   .new-newfeed .new-right {
+    width: 100%;
+    height: auto;
+   }
+   .new-newfeed .new-right .newfeed ul {
+    display: block;
+   }
+   .new-newfeed .new-right .newfeed ul .new-inside #span {
+    padding-bottom: 70px;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 90%;
+    background: url('http://localhost:82/Codeignter-4/public/image/images/slice/line1.png') left bottom no-repeat;
+    opacity: 1;
+   }
+   .new-newfeed .new-right .newfeed ul .img-new {
+    width: 100%;
+    margin-left: 3px;
+   }
+   .new-container {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    padding: 0px;
+    margin-bottom: -200px;
+   }
+}
+@media screen and (min-width:1361px) and (max-width:1925px){
+    
+}

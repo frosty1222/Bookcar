@@ -1,0 +1,60 @@
+.container{
+    width:100%;
+    height:auto;
+}
+.login-controller{
+   width:100%;
+   height:auto;
+   margin:0px;
+}
+.main-login{
+    width:1200px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login {
+    width: 50%;
+    height: auto;
+    margin-top: 100px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:1px 1px 2px 1px #333;
+}
+.login legend{
+    text-align: center;
+}
+.login button {
+    margin-left:280px;
+}
+.main-register .register legend{
+    text-align: center;
+}
+.register{
+    width:900px;
+    height:auto;
+    margin:auto;
+    margin-top:100px;
+    box-shadow: 0.1px 0.1px 1px 1px #333;
+}
+.register .main-regis{
+    width:100%;
+    display:flex;
+}
+.register .main-regis .regis-left{
+    width:400px;
+    margin-right:20px;
+    margin-left:40px;
+}
+.register .main-regis .regis-right{
+    width:400px;
+}
+.register button{
+    margin-left: 300px;
+    margin-bottom:20px;
+}
+.register .form-group a{
+    margin-left: 150px;
+    line-height:1;
+}
